@@ -70,6 +70,7 @@ it('Components renders correctly with updated params', () => {
         fontFamily={'Arial'}
         selectedItemBorderColor={'gray'}
         transparentItemRows={2}
+        nestedScrollEnabled={true}
       />
     )
     .toJSON();

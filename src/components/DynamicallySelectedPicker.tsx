@@ -49,6 +49,7 @@ export default function DynamicallySelectedPicker<ItemT extends ListItem>({
     'rgba( 255, 255, 255, 0.9 )',
     'rgba( 255, 255, 255, 1 )',
   ],
+  nestedScrollEnabled = false,
 }: PickerProps<ItemT>) {
   // work out the size of each 'slice' so it fits in the size of the view
   const itemSize = Math.ceil(
@@ -183,6 +184,7 @@ export default function DynamicallySelectedPicker<ItemT extends ListItem>({
     <View style={{ height, width }}>
       <ScrollView
         ref={scrollViewRef}
+        nestedScrollEnabled={nestedScrollEnabled}
         onLayout={scrollToInitialPosition}
         showsVerticalScrollIndicator={false}
         showsHorizontalScrollIndicator={false}

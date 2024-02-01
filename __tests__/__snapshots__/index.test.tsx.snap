@@ -11,6 +11,7 @@ exports[`Component renders correctly with gradient disabled 1`] = `
 >
   <RCTScrollView
     horizontal={false}
+    nestedScrollEnabled={false}
     onLayout={[Function]}
     onMomentumScrollBegin={[Function]}
     onMomentumScrollEnd={[Function]}
@@ -206,6 +207,7 @@ exports[`Components renders correctly with defaults 1`] = `
 >
   <RCTScrollView
     horizontal={false}
+    nestedScrollEnabled={false}
     onLayout={[Function]}
     onMomentumScrollBegin={[Function]}
     onMomentumScrollEnd={[Function]}
@@ -497,6 +499,7 @@ exports[`Components renders correctly with updated params 1`] = `
 >
   <RCTScrollView
     horizontal={false}
+    nestedScrollEnabled={true}
     onLayout={[Function]}
     onMomentumScrollBegin={[Function]}
     onMomentumScrollEnd={[Function]}

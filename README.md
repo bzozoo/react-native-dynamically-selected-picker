@@ -90,6 +90,7 @@ const styles = StyleSheet.create({
 | Prop           |     Default     |   Type   | Description                                                                                                 |
 | :------------- | :-------------: | :------: | :---------------------------------------------------------------------------------------------------------- |
 | items     |     [{value: 0, label: 'No items', itemColor: 'red'}]       |  `Array<object>` | - |
+| nestedScrollEnabled     |      false       |  `boolean` | Built in ScrollView nestedScrollEnabled prop |
 | onScroll     |      -       |  `func` | Returns selected selected index  |
 | onMomentumScrollBegin     |      -       |  `func` | Returns selected selected index  |
 | onMomentumScrollEnd     |      -       |  `func` | Returns selected selected index  |

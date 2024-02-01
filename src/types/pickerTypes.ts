@@ -25,6 +25,7 @@ export interface PickerProps<ItemT extends ListItem> {
   topGradientColors?: Array<string>;
   bottomGradientColors?: Array<string>;
   transparentItemRows?: number;
+  nestedScrollEnabled?: boolean;
 }
 
 export interface PickerListItemProps<ItemT extends ListItem> {
